@@ -1,0 +1,32 @@
+.header {
+  text-align: center;
+  padding: 2rem 0;
+  color: #ffffff;
+}
+
+.header-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.header .header-title {
+  position: relative;
+  font-weight: 300;
+}
+
+.header .header-title::after {
+  content: "beta";
+  position: absolute;
+  top: -5px;
+  font-size: 12px;
+}
+
+.header .header-date {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
